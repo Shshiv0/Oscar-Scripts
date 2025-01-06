@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name        Preventions to Billing Link Button
+// @name        Consultation to Billing Link Button
 // @namespace   Shiv Patel
 // @description Button to link to Billing RBT and autofill demographic number
 // @include     *oscarEncounter/oscarConsultationRequest/ConsultationFormRequest.jsp*
