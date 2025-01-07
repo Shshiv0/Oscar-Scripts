@@ -2,7 +2,7 @@
 // @name        Demographic to Billing Link Button
 // @namespace   Shiv Patel
 // @description Button to link to Billing RBT and autofill demographic number
-// @include     *demographic/demographiccontrol.jsp*
+// @include     *demographic/demographiccontrol.jsp?demographic_no=*
 // @include     *oscarReport/reportByTemplate/reportConfiguration.jsp?templateid=*
 // @require     http://ajax.googleapis.com/ajax/libs/jquery/1.3.1/jquery.min.js
 // @version     1.2
