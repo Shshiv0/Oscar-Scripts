@@ -63,13 +63,13 @@ function doLink() {
     var elements = (window.location.pathname.split('/', 2));
     firstElement = (elements.slice(1) );
     var vPath = ("https://" + location.host + "/" +firstElement);
-    var linkPath = vPath+"/oscarReport/reportByTemplate/reportConfiguration.jsp?templateid="+input01var+"&preventionlink=1";
+    var linkPath = vPath+"/oscarReport/reportByTemplate/reportConfiguration.jsp?templateid="+input01var+"&billinglink=1";
     var linkWindow = window.open(linkPath);
 }
 
 
 if (locator == 'oscarReportreportByTemplate'){
-    if (QueryString.preventionlink == 1){
+    if (QueryString.billinglink == 1){
         Patient = localStorage.getItem('ptdemo');
         if (Patient){
             $('input[name=demographic_no]').val(Patient);
