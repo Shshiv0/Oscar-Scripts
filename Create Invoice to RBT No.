@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name        Create Invoice to Unknown RBT No.
+// @name        Create Invoice to RBT No.
 // @namespace   Shiv Patel
 // @description Button to link to RBT No. (for now) and autofill demographic number
 // @include     *billing/CA/ON/billingOB.jsp*
